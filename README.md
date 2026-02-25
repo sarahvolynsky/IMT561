@@ -1,22 +1,48 @@
-# IMT 561 Streamlit Lab Starter
+NYC 311 Mini Dashboard (IMT 561)
+Overview
 
-This repository is intentionally incomplete. It is designed for a guided live build during lab and then extended during the in-class activity and follow-up assignment.
+This Streamlit dashboard explores a sample NYC 311 dataset to analyze complaint patterns, response times, and borough-level trends. The app allows users to filter the data and interact with coordinated visualizations in real time.
 
-## Quickstart
-```bash
-python -m venv .venv
-source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
+Intended Audience
+
+This dashboard is designed for:
+
+City operations managers
+
+Policy analysts
+
+Data analysts
+
+Students exploring public service datasets
+
+The tool helps stakeholders quickly identify trends in complaint volume and response performance.
+
+Key Tasks Users Can Perform
+
+Users can:
+
+Filter complaints by borough, channel, complaint type, and response time range
+
+View distribution of response times
+
+Compare median response times across boroughs
+
+Analyze complaint volume by borough
+
+Inspect filtered records in a table
+
+Download filtered results as a CSV
+
+Questions This Dashboard Helps Answer
+
+Which boroughs have longer median response times?
+
+What types of complaints are most common?
+
+How does complaint volume vary across boroughs?
+
+Are there extreme response time outliers?
+
+How to Run Locally
 pip install -r requirements.txt
-streamlit run app.py
-```
-
-## What you will do in the lab
-- Build a layout (tabs or 2 columns)
-- Add filters that modify a shared dataframe
-- Wire up at least 1 Plotly chart
-- Add metrics and additional views as an extension
-
-## Submission (for students)
-- Streamlit deployed link
-- GitHub repo link
-- Short README describing audience + tasks
+streamlit run app.py****
